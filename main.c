@@ -3,13 +3,20 @@
 
 int main(int argc, char **argv)
 {
+const int my = 2;
+const int * const a = &my;
+
+
+
+
 
 	printf("Hello World!");
 
 	if (argc)
 	{
-		printf("%s", argv[1]);
+		printf(" %s %d", argv[1], *a);
 	}
+
 	return (0);
 }
 
