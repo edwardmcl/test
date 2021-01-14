@@ -7,14 +7,11 @@ const int my = 2;
 const int * const a = &my;
 
 
-
-
-
 	printf("Hello World!");
 
 	if (argc)
 	{
-		printf(" %s %d", argv[1], *a);
+		printf("out %s %d", argv[1], *a);
 	}
 
 	return (0);
